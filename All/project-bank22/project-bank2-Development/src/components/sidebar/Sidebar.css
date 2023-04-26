@@ -1,0 +1,78 @@
+.sidebar{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 260px;
+  background: rgb(1, 1, 43);
+  z-index: 100;
+  transition: all 0.5s ease;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc rgb(1, 1, 43);
+  }
+  
+  .sidebar li{
+  list-style-type: none;
+  text-decoration: none;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: xx-large;
+  color: white;
+  }
+  
+  .options span{
+  color: white;
+  font-size: x-large;
+  margin-top: 20px;
+  }
+  
+  .sidebar ul li a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #ccc;
+  }
+  
+  .options span:hover {
+  background-color:#33415c;
+  border-radius: 10px;
+  width: 120px;
+  margin-right: 10px;
+  }
+  
+  .sidebar ul li a span {
+  margin-left: 20px;
+  color: #ccc;
+  }
+  
+  .auth-options{
+  margin-top: 3px;
+  }
+  
+  .auth-options:hover{
+  background-color: white;
+  color: rgb(1, 1, 43);
+  }
+  
+  .sidebar::-webkit-scrollbar {
+  width: 5px;
+  }
+  
+  .sidebar::-webkit-scrollbar-track {
+  background: rgb(1, 1, 43);
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+  border: 3px solid rgb(1, 1, 43);
+  }
+  
+  
+  
+  
+  
+  
+  

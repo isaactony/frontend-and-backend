@@ -1,0 +1,41 @@
+
+.add-h{
+   align-content: center;
+  margin-left: 60rem;
+
+}
+
+
+.project__label{
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 1.5rem;
+  margin-top: 5px;
+} 
+
+.form-container {
+    padding: 20px;
+    width: 100%;
+    background-color: #ffffff; 
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+.course-select{
+  width: 10rem;
+  
+}
+.project-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  height: 70vh;
+  margin-left: 50rem;
+  background-color: #020733;
+
+}

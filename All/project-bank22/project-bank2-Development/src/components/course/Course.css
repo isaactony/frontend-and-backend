@@ -1,0 +1,46 @@
+.course {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    background: white;
+    height: 100vh;
+    left: 260px;
+    width: calc(100% - 260px);
+    
+  }
+  
+  .stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+    margin-top: 3pc;
+    border: 2px solid;
+    padding: 10px 10px 0;
+    height: fit-content;
+    box-shadow: 20px 20px 10px grey;
+    border-radius: 10px;
+  
+  }
+  
+  .pictures {
+    width: 290px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+ .course_name{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .title__lec{
+    text-align: left;
+    padding-left: 300px;
+    font-weight: 800;
+    
+  }
+  .stack:hover{
+    transform: scale(1.3);
+  }

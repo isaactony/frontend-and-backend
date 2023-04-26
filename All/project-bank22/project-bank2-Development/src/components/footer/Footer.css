@@ -1,0 +1,13 @@
+.text-center{
+    
+    width: calc(100% - 260px);
+    left: 240px;
+    bottom: 0%;
+    position:relative;
+    /* position: relative; */
+    
+}
+.footer
+{
+    margin-right: 200px;
+}

@@ -1,0 +1,146 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20pc;
+  }
+  
+  .project-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 12px;
+  }
+  
+  .project-container-header button {
+    display: block;
+    width: fit-content !important;
+    height: fit-content !important;
+    margin: 0 !important;
+  }
+  
+  .projects-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 16px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 60%;
+  }
+  
+  .image-container img {
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+  }
+  
+  .project-actions button,
+  .project-actions span {
+    display: block;
+    width: fit-content !important;
+    height: fit-content !important;
+    margin: 0 !important;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .project-list {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .project-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .project-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .project-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+  }
+  
+  .project-list li h3 {
+    margin: 0;
+  }
+  
+  .project-list li p {
+    margin: 0;
+  }
+  
+  .view-more-button {
+    margin-top: 10px;
+    background-color:#1784bf;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .project-container-header h1 {
+    
+    font-weight: bold;
+  }
+  
+  .project-container-header button {
+    background-color: #1784bf;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: right;
+    right: 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: fixed;
+    right: 0;
+    text-align: right;
+    margin-right: 20px;
+   font-weight: 800;
+   border-radius: 10px;
+  
+  }
+  

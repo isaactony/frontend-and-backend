@@ -1,0 +1,89 @@
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f4ff;
+  }
+  .sidecontact{
+       background-color: rgb(9, 9, 31);
+       width: 500px;
+       border-radius: 15px;
+       margin-right: 12px;
+       height: 60vh;
+       padding-top: 10px;
+       padding-left: 10px;
+       padding-right: 10px;
+       border: 2px solid;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .sidecontact h1{
+      font-weight: 800;
+      padding-bottom: 20px;
+  }
+  .sidecontact p{
+      flex-wrap: wrap;
+      width: 300px;
+  }
+  .contact__form{
+    width: 80%;
+    height: 60vh;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .input__space{
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      font-size: 16px;
+  }
+  label{
+      font-weight: 700;
+  }
+  
+  .submit{
+    background-color:rgb(1, 1, 58);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-size: x-large;
+   
+  }
+  
+  .title{
+      text-align: center;
+      font-weight: 800;
+  }
+  .submit-button {
+    background-color: #0A0E33; 
+     border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+  } 
+
+  .goback-button {
+    background-color:rgb(63, 104, 63); /* Red */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+  
